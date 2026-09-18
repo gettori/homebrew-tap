@@ -1,22 +1,38 @@
-# skarif2's Homebrew tap
+# Tori's Homebrew tap
 
-Casks for my apps.
+The cask for [Tori](https://github.com/gettori/releases), a dev workflow
+manager: session tree, agent terminal and editor in one macOS app.
 
-## Available casks
-
-| Cask | Description | Install |
-| ---- | ----------- | ------- |
-| `sway` | Dev workflow manager: session tree + Claude terminal + editor | `brew install --cask skarif2/tap/sway` |
-
-The fully qualified name (`skarif2/tap/sway`) is the whole setup: it taps this
-repository and installs in one command. Homebrew asks you to confirm trust the
-first time; confirm and you're set.
-
-If an app doesn't open after a manual (non-Homebrew) install, this clears it
-up:
+## Install
 
 ```sh
-xattr -cr /Applications/Sway.app
+brew install --cask gettori/tap/tori
 ```
 
-Casks installed from this tap handle that step automatically.
+The fully qualified name is the whole setup: it taps this repository and
+installs in one command. Homebrew asks you to confirm trust the first time.
+
+Updates come the usual way:
+
+```sh
+brew upgrade --cask tori
+```
+
+Alpha builds are unsigned, so macOS would otherwise refuse the first launch.
+The cask clears the quarantine flag for you. After a manual download from the
+[Releases page](https://github.com/gettori/releases/releases) you have to do it
+yourself:
+
+```sh
+xattr -cr /Applications/Tori.app
+```
+
+## Sway is Tori now
+
+The app was called Sway, and this tap's cask was `sway`. Homebrew knows the
+rename, so installing `tori` takes the old install over rather than leaving you
+with two. Nothing carries across inside the app: Tori starts fresh, and what
+Sway wrote is still on disk. The release notes list the paths.
+
+`Sway.app` stays in Applications until you drag it to the Trash. Tori is a
+separate app to macOS, not an upgrade of that one.
