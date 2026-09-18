@@ -26,13 +26,3 @@ yourself:
 ```sh
 xattr -cr /Applications/Tori.app
 ```
-
-## Sway is Tori now
-
-The app was called Sway, and this tap's cask was `sway`. Homebrew knows the
-rename, so installing `tori` takes the old install over rather than leaving you
-with two. Nothing carries across inside the app: Tori starts fresh, and what
-Sway wrote is still on disk. The release notes list the paths.
-
-`Sway.app` stays in Applications until you drag it to the Trash. Tori is a
-separate app to macOS, not an upgrade of that one.
