@@ -1,11 +1,11 @@
 cask "tori" do
-  version "26.1002.0-alpha"
-  sha256 "9358042c3bad91e75aa448df927455db8a2f80d3e4d0e01295221479b848e9a8"
+  version "26.1002.1-alpha"
+  sha256 "10d8c712207b0f2a180f585d3410c2abb54b964dd1b8b601aa287ea433b73c48"
 
-  url "https://github.com/gettori/releases/releases/download/v#{version}/Tori_#{version}_universal.dmg"
+  url "https://github.com/gettori/tori/releases/download/v#{version}/Tori_#{version}_universal.dmg"
   name "Tori"
   desc "Cockpit for the coding agents you already run"
-  homepage "https://gettori.app"
+  homepage "https://github.com/gettori/tori"
 
   # No version bound: the bundle sets no minimum, so older macOS is untested
   # rather than blocked, and this says only what the app really requires.
