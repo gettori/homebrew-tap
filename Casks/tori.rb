@@ -5,7 +5,7 @@ cask "tori" do
   url "https://github.com/gettori/tori/releases/download/v#{version}/Tori_#{version}_universal.dmg"
   name "Tori"
   desc "Cockpit for the coding agents you already run"
-  homepage "https://github.com/gettori/tori"
+  homepage "https://gettori.app"
 
   # No version bound: the bundle sets no minimum, so older macOS is untested
   # rather than blocked, and this says only what the app really requires.
