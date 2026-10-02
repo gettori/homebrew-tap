@@ -1,7 +1,8 @@
 # Tori's Homebrew tap
 
-The cask for [Tori](https://github.com/gettori/releases), a dev workflow
-manager: session tree, agent terminal and editor in one macOS app.
+The cask for [Tori](https://gettori.app), a cockpit for the coding agents you
+already run. Source and releases are at
+[github.com/gettori/tori](https://github.com/gettori/tori).
 
 ## Install
 
@@ -20,7 +21,7 @@ brew upgrade --cask tori
 
 Alpha builds are unsigned, so macOS would otherwise refuse the first launch.
 The cask clears the quarantine flag for you. After a manual download from the
-[Releases page](https://github.com/gettori/releases/releases) you have to do it
+[releases page](https://github.com/gettori/tori/releases) you have to do it
 yourself:
 
 ```sh
