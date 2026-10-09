@@ -1,6 +1,6 @@
 cask "tori" do
-  version "26.1008.0-alpha"
-  sha256 "95c10cb3347a6d0faf25f0d86f625cf6d9d284e7bba47b7ad9d526cca40e0a9a"
+  version "26.1009.0-alpha"
+  sha256 "dc8cc3e415c079f8acdf4e1e82b18d8527f71291113a801c296191ed7591eaf3"
 
   url "https://github.com/gettori/tori/releases/download/v#{version}/Tori_#{version}_universal.dmg"
   name "Tori"
