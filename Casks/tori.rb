@@ -1,9 +1,9 @@
 cask "tori" do
   arch arm: "aarch64", intel: "x64"
 
-  version "26.1029.0-beta"
-  sha256 arm:   "63915363125ea973bbd4a11f36e677de8f11a66dd0605cda3e854dff0047199b",
-         intel: "000eab739461e864f80ce51e707726147521a77730367029715af1a14cca7036"
+  version "26.1030.0-beta"
+  sha256 arm:   "91466991fcd1c80d9cf44a2e2d9e1ace4ad10361a22cb68af4df06ca63151e66",
+         intel: "afbb25c9c69bca27e85dde6d2481f7c003f07c3dd90bf05ab4fe81b43486d806"
 
   url "https://github.com/gettori/tori/releases/download/v#{version}/Tori_#{version}_#{arch}.dmg"
   name "Tori"
