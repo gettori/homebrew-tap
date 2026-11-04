@@ -1,11 +1,11 @@
 cask "tori" do
   arch arm: "aarch64", intel: "x64"
 
-  version "26.1030.0-beta"
-  sha256 arm:   "91466991fcd1c80d9cf44a2e2d9e1ace4ad10361a22cb68af4df06ca63151e66",
-         intel: "afbb25c9c69bca27e85dde6d2481f7c003f07c3dd90bf05ab4fe81b43486d806"
+  version "26.1104.0-beta"
+  sha256 arm:   "65b393fbf2612e2c3301df5a62b4865ca628e9c57e8e0604d6fbc7737e85e71b",
+         intel: "150de290b1903840679e740ab7d2ede1139d211c2bd96b218ba242bc392955d9"
 
-  url "https://github.com/gettori/tori/releases/download/v#{version}/Tori_#{version}_#{arch}.dmg"
+  url "https://github.com/gettori/tori/releases/download/macos-v#{version}/Tori_#{version}_#{arch}.dmg"
   name "Tori"
   desc "Cockpit for the coding agents you already run"
   homepage "https://gettori.app"
